@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28865F7E-CCD7-4A85-935C-D7196A387515}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Squadron.Styling</RootNamespace>
+    <AssemblyName>Squadron.Styling</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Squadron2013Stylign.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\ConfirmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConfirmDialog.designer.cs">
+      <DependentUpon>ConfirmDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MessageDialog.designer.cs">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\PropertyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PropertyDialog.designer.cs">
+      <DependentUpon>PropertyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Themes\Core\Glassy.cs" />
+    <Compile Include="Themes\Core\ITheme.cs" />
+    <Compile Include="Themes\Core\ThemeConstants.cs" />
+    <Compile Include="Themes\Core\ThemePainter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Themes\Theme.cs" />
+    <Compile Include="Widgets\ActionControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\ActionControl.Designer.cs">
+      <DependentUpon>ActionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\BlinkingButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingForm.designer.cs">
+      <DependentUpon>StylingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\StylingHeaderPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingSection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingSection.Designer.cs">
+      <DependentUpon>StylingSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\StylingStatusPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingWorkarea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\StylingManager.cs" />
+    <Compile Include="Widgets\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WizardForm.Designer.cs">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\ConfirmDialog.resx">
+      <DependentUpon>ConfirmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MessageDialog.resx">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PropertyDialog.resx">
+      <DependentUpon>PropertyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ActionControl.resx">
+      <DependentUpon>ActionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\StylingForm.resx">
+      <DependentUpon>StylingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\StylingSection.resx">
+      <DependentUpon>StylingSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WizardForm.resx">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Windows8LookNFeel\Windows8LookNFeel\Windows8LookNFeel.csproj">
+      <Project>{705aef12-aa5c-445a-80b0-b47ca002b8fc}</Project>
+      <Name>Windows8LookNFeel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Squadron.Common\Squadron.Common.csproj">
+      <Project>{7537C3EE-776C-48AF-AD75-7763299CDF8C}</Project>
+      <Name>Squadron.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Widgets\Internals\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SharePoint Diagnostics.png" />
+    <None Include="Squadron2013Stylign.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

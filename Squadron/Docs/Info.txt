@@ -1,0 +1,10 @@
+﻿Apr 2012
+--------
+Debug mode added
+Size Info added
+Permissions > Folder added
+Grid Theming started
+
+Dec 2012
+--------
+Facebook, Twitter, Blog icons added for following

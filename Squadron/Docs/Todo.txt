@@ -1,0 +1,11 @@
+﻿
+
+Documentation
+-------------
+Addin library automatic copy
+
+
+
+Bakup Permissions > Tutorial (XML sdk installation, about DotChar for empty spaces)
+
+Restore Permissions > Tutorial (add blank cell issue, XML sdk installation, about match, about clearing existing groups/users)

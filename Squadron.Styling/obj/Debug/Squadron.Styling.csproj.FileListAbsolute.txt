@@ -1,0 +1,104 @@
+E:\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+E:\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+E:\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.dll
+E:\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.pdb
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\ResGen.read.1.tlog
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\ResGen.write.1.tlog
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+E:\Projects\Squadron\Squadron.Styling\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+E:\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.csprojResolveAssemblyReference.cache
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.csproj.GenerateResource.Cache
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.pdb
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.dll
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.csprojResolveAssemblyReference.cache
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.csproj.GenerateResource.Cache
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+C:\SkyDrive\Projects\Squadron\Squadron.Styling\obj\Debug\Squadron.Styling.pdb
+\\hp\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+\\hp\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+\\hp\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Common.dll
+\\hp\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.csprojResolveAssemblyReference.cache
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.csproj.GenerateResource.Cache
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+\\hp\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.pdb
+Z:\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+Z:\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+Z:\Squadron.Styling\bin\Debug\Squadron.Common.dll
+Z:\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.csprojResolveAssemblyReference.cache
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.csproj.GenerateResource.Cache
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+Z:\Squadron.Styling\obj\Debug\Squadron.Styling.pdb
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Styling.dll
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Styling.pdb
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Common.dll
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\bin\Debug\Squadron.Common.pdb
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.csprojResolveAssemblyReference.cache
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.ConfirmDialog.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.MessageDialog.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.PropertyDialog.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Properties.Resources.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Resources.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.ActionControl.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingForm.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.StylingSection.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.Widgets.WizardForm.resources
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.csproj.GenerateResource.Cache
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.dll
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Styling\obj\Debug\Squadron.Styling.pdb

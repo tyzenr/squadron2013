@@ -1,0 +1,4 @@
+﻿1.0.0.56 (Apr 2013)
+--------
+Restore Wizard (no assignments) cell error fixed
+Help integrated

@@ -1,0 +1,1133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86B45B8C-4699-498F-AB5F-8BB98EA058B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Squadron</RootNamespace>
+    <AssemblyName>Squadron</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://ftp.sharepointcto.com/sharepointcto.com/wwwroot/Squadron/2013/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.sharepointcto.com/Squadron/2013/</InstallUrl>
+    <ProductName>Squadron 2013</ProductName>
+    <PublisherName>Squadron</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.0.9</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FB2190C236F796B1BFCEBA0E792FAF2764B02AAB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Squadron_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SquadronKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Hx.General, Version=1.0.0.32, Culture=neutral, PublicKeyToken=9e0d54784e993d47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Hx.General.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9e0d54784e993d47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Microsoft.Data.ConnectionUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.ConnectionUI.Dialog, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9e0d54784e993d47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Microsoft.Data.ConnectionUI.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.Office.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server.Search.Applications, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.Office.Server.Search.Applications.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Server.UserProfiles, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.Office.Server.UserProfiles.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="PieChart, Version=1.5.0.8, Culture=neutral, PublicKeyToken=9e0d54784e993d47, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\PieChart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveDirectory\ActiveDirectoryAddin.cs" />
+    <Compile Include="ActiveDirectory\ActiveDirectoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ActiveDirectory\ActiveDirectoryControl.Designer.cs">
+      <DependentUpon>ActiveDirectoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animation\AnimationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animation\AnimationForm.Designer.cs">
+      <DependentUpon>AnimationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasData\AddinView.cs" />
+    <Compile Include="CanvasData\CanvasDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CanvasData\CanvasDataForm.Designer.cs">
+      <DependentUpon>CanvasDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\CommandAddin.cs" />
+    <Compile Include="Commands\CommandControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Commands\CommandControl.Designer.cs">
+      <DependentUpon>CommandControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command\BaseCommand.cs" />
+    <Compile Include="Command\CheckoutCommand.cs" />
+    <Compile Include="Command\CopySiteCommand.cs" />
+    <Compile Include="Command\DeleteCommand.cs" />
+    <Compile Include="Command\Dialogs\EnsureUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command\Dialogs\EnsureUserDialog.Designer.cs">
+      <DependentUpon>EnsureUserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command\Dialogs\PowerShellCodeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command\Dialogs\PowerShellCodeDialog.Designer.cs">
+      <DependentUpon>PowerShellCodeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command\Dialogs\SharePointDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command\Dialogs\SharePointDialog.Designer.cs">
+      <DependentUpon>SharePointDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Command\EditCommand.cs" />
+    <Compile Include="Command\EnsureUserCommand.cs" />
+    <Compile Include="Command\ExportSiteCommand.cs" />
+    <Compile Include="Command\ImportSiteCommand.cs" />
+    <Compile Include="Command\PowerShellCodeCommand.cs" />
+    <Compile Include="Command\UndoCheckoutCommand.cs" />
+    <Compile Include="Command\UnlockCommand.cs" />
+    <Compile Include="Components\Dialogs\ExplorerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\Dialogs\ExplorerDialog.Designer.cs">
+      <DependentUpon>ExplorerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\FolderHierarchy.cs" />
+    <Compile Include="Components\ScopeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\ScopeControl.Designer.cs">
+      <DependentUpon>ScopeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ScopeDropDownControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\SharePointButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\SharePointExplorer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\SharePointExplorer.Designer.cs">
+      <DependentUpon>SharePointExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyItems\Controls\CopyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CopyItems\Controls\CopyControl.Designer.cs">
+      <DependentUpon>CopyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyItems\Controls\CopyItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CopyItems\Controls\CopyItemControl.Designer.cs">
+      <DependentUpon>CopyItemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyItems\CopyItemsAddin.cs" />
+    <Compile Include="CopyItems\CopyItemsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CopyItems\CopyItemsControl.Designer.cs">
+      <DependentUpon>CopyItemsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyTables\CopyTablesAddIn.cs" />
+    <Compile Include="CopyTables\CopyTablesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CopyTables\CopyTablesControl.Designer.cs">
+      <DependentUpon>CopyTablesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\AddinManager.cs" />
+    <Compile Include="Core\SquadronContext.cs" />
+    <Compile Include="Core\SquadronHelper.cs" />
+    <Compile Include="Core\SquadronItem.cs" />
+    <Compile Include="Core\SquadronAddin.cs" />
+    <Compile Include="Diagnostics\Actions\DatabaseSizeAction.cs" />
+    <Compile Include="Diagnostics\Actions\DeadAccountsAction.cs" />
+    <Compile Include="Diagnostics\Actions\DeadAlertsAction.cs" />
+    <Compile Include="Diagnostics\Actions\DirectPermissionsAction.cs" />
+    <Compile Include="Diagnostics\Actions\DiskSizeAction.cs" />
+    <Compile Include="Diagnostics\Actions\ServerStatusAction.cs" />
+    <Compile Include="Diagnostics\Actions\WebsiteSizeAction.cs" />
+    <Compile Include="Diagnostics\DiagnosticsAddin.cs" />
+    <Compile Include="Diagnostics\DiagnosticsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\DiagnosticsControl.Designer.cs">
+      <DependentUpon>DiagnosticsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\UserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\UserDialog.Designer.cs">
+      <DependentUpon>UserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\DataConnectionConfiguration.cs" />
+    <Compile Include="Dialog\IDataConnectionConfiguration.cs" />
+    <Compile Include="Documentation\Controls\GridPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Controls\GridPanel.Designer.cs">
+      <DependentUpon>GridPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\DocumentationAddin.cs" />
+    <Compile Include="Documentation\DocumentationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\DocumentationControl.Designer.cs">
+      <DependentUpon>DocumentationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\Documentation_ContentDatabases.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_CoreInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_FarmServers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_FarmSolutions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_HTMLReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_List.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_ManagedPaths.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_ServiceApplications.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_Services.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_Site.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_SiteCollection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_UserSolutions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Documentation_WebApplication.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Documentation\Entity\SPContentDatabaseEntity.cs" />
+    <Compile Include="Documentation\Entity\SPCoreInfoEntity.cs" />
+    <Compile Include="Documentation\Entity\SPFarmServerEntity.cs" />
+    <Compile Include="Documentation\Entity\SPFarmSolutionEntity.cs" />
+    <Compile Include="Documentation\Entity\SPItemEntity.cs" />
+    <Compile Include="Documentation\Entity\SPListEntity.cs" />
+    <Compile Include="Documentation\Entity\SPManagedPathEntity.cs" />
+    <Compile Include="Documentation\Entity\SPServiceApplicationEntity.cs" />
+    <Compile Include="Documentation\Entity\SPServiceEntity.cs" />
+    <Compile Include="Documentation\Entity\SPSiteEntity.cs" />
+    <Compile Include="Documentation\Entity\SPUserSolutionEntity.cs" />
+    <Compile Include="Documentation\Entity\SPWebApplicationEntity.cs" />
+    <Compile Include="Documentation\Entity\SPWebEntity.cs" />
+    <Compile Include="ClearList\ClearListAddin.cs" />
+    <Compile Include="ClearList\ClearListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClearList\ClearListControl.Designer.cs">
+      <DependentUpon>ClearListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions\InvalidURLException.cs" />
+    <Compile Include="Exceptions\ObjectException.cs" />
+    <Compile Include="Explorer\ExplorerAddIn.cs" />
+    <Compile Include="Explorer\ExplorerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Explorer\ExplorerControl.Designer.cs">
+      <DependentUpon>ExplorerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer\Explorer_Commands.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Explorer\IExplorer.cs" />
+    <Compile Include="Export\CSVExport.cs" />
+    <Compile Include="Export\ExcelExport.cs" />
+    <Compile Include="Export\ExportDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Export\ExportDataForm.Designer.cs">
+      <DependentUpon>ExportDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farm\FarmAddIn.cs" />
+    <Compile Include="Farm\FarmControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Farm\FarmControl.Designer.cs">
+      <DependentUpon>FarmControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListSize\Entity\ListSizeEntity.cs" />
+    <Compile Include="ListSize\ListSizeAddin.cs" />
+    <Compile Include="ListSize\ListSizeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListSize\ListSizeControl.Designer.cs">
+      <DependentUpon>ListSizeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySiteInfo\MySiteControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MySiteInfo\MySiteControl.Designer.cs">
+      <DependentUpon>MySiteControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySiteInfo\MySiteInfoAddin.cs" />
+    <Compile Include="Others\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Others\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\AddinInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Others\AddinInfoForm.Designer.cs">
+      <DependentUpon>AddinInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\DisclaimerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Others\DisclaimerForm.Designer.cs">
+      <DependentUpon>DisclaimerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Others\LogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Others\LogForm.Designer.cs">
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionGroups\PermissionGroupsAddin.cs" />
+    <Compile Include="PermissionGroups\PermissionGroupsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PermissionGroups\PermissionGroupsControl.Designer.cs">
+      <DependentUpon>PermissionGroupsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Components\CopyPermissions.cs" />
+    <Compile Include="Permissions\Components\PermissionComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Permissions\Components\PermissionComponent.Designer.cs">
+      <DependentUpon>PermissionComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\CopyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\CopyDialog.Designer.cs">
+      <DependentUpon>CopyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\DeleteDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\DeleteDialog.Designer.cs">
+      <DependentUpon>DeleteDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\FindDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\FindDialog.Designer.cs">
+      <DependentUpon>FindDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\ResetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Dialogs\ResetDialog.Designer.cs">
+      <DependentUpon>ResetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Entity\NameEntity.cs" />
+    <Compile Include="Permissions\Entity\PermissionEntity.cs" />
+    <Compile Include="Permissions\Entity\PermissionInfo.cs" />
+    <Compile Include="Permissions\PermissionsAddin.cs" />
+    <Compile Include="Permissions\PermissionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Permissions\PermissionsControl.Designer.cs">
+      <DependentUpon>PermissionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Wizards\BackupWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Wizards\BackupWizard.Designer.cs">
+      <DependentUpon>BackupWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Wizards\Misc\GridForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Wizards\Misc\GridForm.Designer.cs">
+      <DependentUpon>GridForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Wizards\RestoreExpert.cs" />
+    <Compile Include="Permissions\Wizards\RestoreWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Wizards\RestoreWizard.Designer.cs">
+      <DependentUpon>RestoreWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions\Wizards\RestoreWizard_ApplyPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permissions\Wizards\RestoreWizard_Misc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickTest\Core\QuickTestConstants.cs" />
+    <Compile Include="QuickTest\Core\QuickTestLogic.cs" />
+    <Compile Include="QuickTest\Dialogs\TestInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuickTest\Dialogs\TestInfoForm.Designer.cs">
+      <DependentUpon>TestInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuickTest\Entity\AverageResultEntity.cs" />
+    <Compile Include="QuickTest\Entity\TestResultEntity.cs" />
+    <Compile Include="QuickTest\QuickTestAddin.cs" />
+    <Compile Include="QuickTest\QuickTestControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuickTest\QuickTestControl.Designer.cs">
+      <DependentUpon>QuickTestControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointSKU\SharePointSKUAddin.cs" />
+    <Compile Include="SharePointSKU\SharePointSKUControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SharePointSKU\SharePointSKUControl.Designer.cs">
+      <DependentUpon>SharePointSKUControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SharePointSKU\SKUFinder.cs" />
+    <Compile Include="SiteStructure\Entity\ItemInfo.cs" />
+    <Compile Include="SiteStructure\Entity\SiteParentInfo.cs" />
+    <Compile Include="SiteStructure\SiteStructureAddIn.cs" />
+    <Compile Include="SiteStructure\SiteStructureControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SiteStructure\SiteStructureControl.Designer.cs">
+      <DependentUpon>SiteStructureControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiteStructure\SiteStructureControl_Tree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Size\Dialogs\ContentDatabaseSizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Size\Dialogs\ContentDatabaseSizeForm.Designer.cs">
+      <DependentUpon>ContentDatabaseSizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Size\Entity\DbSizeEntity.cs" />
+    <Compile Include="Size\SizeAddin.cs" />
+    <Compile Include="Size\SizeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Size\SizeControl.Designer.cs">
+      <DependentUpon>SizeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solutions\SolutionsAddin.cs" />
+    <Compile Include="Solutions\SolutionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Solutions\SolutionsControl.Designer.cs">
+      <DependentUpon>SolutionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stsadm\StsAdmAddin.cs" />
+    <Compile Include="Stsadm\StsadmControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stsadm\StsadmControl.Designer.cs">
+      <DependentUpon>StsadmControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemAddIn.cs" />
+    <Compile Include="System\SystemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\SystemControl.Designer.cs">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemeForm.Designer.cs">
+      <DependentUpon>ThemeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileInfo\UserProfileAddin.cs" />
+    <Compile Include="UserProfileInfo\UserProfileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserProfileInfo\UserProfileControl.Designer.cs">
+      <DependentUpon>UserProfileControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileInfo\UserProfileEntity.cs" />
+    <Compile Include="UtilityAddIn\FileUtility.cs" />
+    <Compile Include="Utility\ActiveDirectoryUtility.cs" />
+    <Compile Include="Utility\Entity\ADEntity.cs" />
+    <Compile Include="Utility\Entity\Permission.cs" />
+    <Compile Include="Utility\Entity\SharePointObject.cs" />
+    <Compile Include="Utility\Entity\SizeEntity.cs" />
+    <Compile Include="Utility\Entity\SolutionEntity.cs" />
+    <Compile Include="Utility\ImportExportUtility.cs" />
+    <Compile Include="Utility\PermissionUtility.cs" />
+    <Compile Include="Utility\PowerShellUtility.cs" />
+    <Compile Include="Utility\SecurableObjectEnumerator.cs" />
+    <Compile Include="Utility\SharePointUtility.cs" />
+    <Compile Include="Utility\SizeUtility.cs" />
+    <Compile Include="Utility\SolutionUtility.cs" />
+    <Compile Include="VersionCleaner\Classes.cs" />
+    <Compile Include="VersionCleaner\VersionCleanerAddin.cs" />
+    <Compile Include="VersionCleaner\VersionCleanerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VersionCleaner\VersionCleanerControl.Designer.cs">
+      <DependentUpon>VersionCleanerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WFTerminator\WFTerminatorAddin.cs" />
+    <Compile Include="WFTerminator\WFTerminatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WFTerminator\WFTerminatorControl.Designer.cs">
+      <DependentUpon>WFTerminatorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\ActionControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\ActionControl.Designer.cs">
+      <DependentUpon>ActionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\DrawingResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DrawingResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\Section.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widgets\Section.Designer.cs">
+      <DependentUpon>Section.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\StatusPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetManager.cs" />
+    <Compile Include="Widgets\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WizardForm.Designer.cs">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActiveDirectory\ActiveDirectoryControl.resx">
+      <DependentUpon>ActiveDirectoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Animation\AnimationForm.resx">
+      <DependentUpon>AnimationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanvasData\CanvasDataForm.resx">
+      <DependentUpon>CanvasDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commands\CommandControl.resx">
+      <DependentUpon>CommandControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command\Dialogs\EnsureUserDialog.resx">
+      <DependentUpon>EnsureUserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command\Dialogs\PowerShellCodeDialog.resx">
+      <DependentUpon>PowerShellCodeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command\Dialogs\SharePointDialog.resx">
+      <DependentUpon>SharePointDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Dialogs\ExplorerDialog.resx">
+      <DependentUpon>ExplorerDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\ScopeControl.resx">
+      <DependentUpon>ScopeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\SharePointExplorer.resx">
+      <DependentUpon>SharePointExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyItems\Controls\CopyControl.resx">
+      <DependentUpon>CopyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyItems\Controls\CopyItemControl.resx">
+      <DependentUpon>CopyItemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyItems\CopyItemsControl.resx">
+      <DependentUpon>CopyItemsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyTables\CopyTablesControl.resx">
+      <DependentUpon>CopyTablesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagnostics\DiagnosticsControl.resx">
+      <DependentUpon>DiagnosticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\UserDialog.resx">
+      <DependentUpon>UserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentation\Controls\GridPanel.resx">
+      <DependentUpon>GridPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentation\DocumentationControl.resx">
+      <DependentUpon>DocumentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClearList\ClearListControl.resx">
+      <DependentUpon>ClearListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explorer\ExplorerControl.resx">
+      <DependentUpon>ExplorerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Export\ExportDataForm.resx">
+      <DependentUpon>ExportDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farm\FarmControl.resx">
+      <DependentUpon>FarmControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListSize\ListSizeControl.resx">
+      <DependentUpon>ListSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySiteInfo\MySiteControl.resx">
+      <DependentUpon>MySiteControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\AddinInfoForm.resx">
+      <DependentUpon>AddinInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\DisclaimerForm.resx">
+      <DependentUpon>DisclaimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Others\LogForm.resx">
+      <DependentUpon>LogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PermissionGroups\PermissionGroupsControl.resx">
+      <DependentUpon>PermissionGroupsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Components\PermissionComponent.resx">
+      <DependentUpon>PermissionComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Dialogs\CopyDialog.resx">
+      <DependentUpon>CopyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Dialogs\DeleteDialog.resx">
+      <DependentUpon>DeleteDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Dialogs\FindDialog.resx">
+      <DependentUpon>FindDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Dialogs\ResetDialog.resx">
+      <DependentUpon>ResetDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\PermissionsControl.resx">
+      <DependentUpon>PermissionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Wizards\BackupWizard.resx">
+      <DependentUpon>BackupWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Wizards\Misc\GridForm.resx">
+      <DependentUpon>GridForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permissions\Wizards\RestoreWizard.resx">
+      <DependentUpon>RestoreWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuickTest\Dialogs\TestInfoForm.resx">
+      <DependentUpon>TestInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuickTest\QuickTestControl.resx">
+      <DependentUpon>QuickTestControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SharePointSKU\SharePointSKUControl.resx">
+      <DependentUpon>SharePointSKUControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiteStructure\SiteStructureControl.resx">
+      <DependentUpon>SiteStructureControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Size\Dialogs\ContentDatabaseSizeForm.resx">
+      <DependentUpon>ContentDatabaseSizeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Size\SizeControl.resx">
+      <DependentUpon>SizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solutions\SolutionsControl.resx">
+      <DependentUpon>SolutionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stsadm\StsadmControl.resx">
+      <DependentUpon>StsadmControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\SystemControl.resx">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeForm.resx">
+      <DependentUpon>ThemeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfileInfo\UserProfileControl.resx">
+      <DependentUpon>UserProfileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionCleaner\VersionCleanerControl.resx">
+      <DependentUpon>VersionCleanerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WFTerminator\WFTerminatorControl.resx">
+      <DependentUpon>WFTerminatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\ActionControl.resx">
+      <DependentUpon>ActionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\DrawingResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DrawingResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WizardForm.resx">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="1.pfx" />
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Squadron 2013 July.pfx" />
+    <None Include="Squadron13.pfx" />
+    <None Include="Squadron2013.pfx" />
+    <None Include="SquadronKey.pfx" />
+    <None Include="Test.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Docs\Builds.txt" />
+    <Content Include="Docs\Dependencies.txt" />
+    <Content Include="Docs\Info.txt" />
+    <Content Include="Docs\Todo.txt" />
+    <None Include="Resources\BG1.png" />
+    <None Include="Resources\ButtonBG.png" />
+    <None Include="Resources\BG3.png" />
+    <None Include="Resources\PanelBG.png" />
+    <None Include="Resources\DeleteItemOnGrid.png" />
+    <None Include="Resources\UnChecked.bmp" />
+    <None Include="Resources\rUnchecked.bmp" />
+    <None Include="Resources\rChecked.bmp" />
+    <None Include="Resources\RadioButtonUnchecked.bmp" />
+    <None Include="Resources\RadioButtonChecked.bmp" />
+    <None Include="Resources\Checked.bmp" />
+    <None Include="Resources\CheckBox_UnChecked.bmp" />
+    <None Include="Resources\CheckBox_Checked.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Windows8LookNFeel\Windows8LookNFeel\Windows8LookNFeel.csproj">
+      <Project>{705aef12-aa5c-445a-80b0-b47ca002b8fc}</Project>
+      <Name>Windows8LookNFeel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Squadron.Common\Squadron.Common.csproj">
+      <Project>{7537C3EE-776C-48AF-AD75-7763299CDF8C}</Project>
+      <Name>Squadron.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Docs\Info.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Docs\Todo.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.BusinessData">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.HtmlTrans.Interface">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.IdentityModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Internal.Mime">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.AdministrationOperation">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Client.ServerRuntime">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Diagnostics">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Dsp">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Library">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.PowerShell">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Search">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SharePoint.Security">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Web.Administration">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Web.CommandUI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Web.Design.Server">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Squadron.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Management.Automation">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="Components\Entity\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

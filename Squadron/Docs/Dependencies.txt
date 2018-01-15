@@ -1,0 +1,8 @@
+﻿SharePoint 2010 Foundation
+(GAC Assemblies, Registry)
+
+Migrating to SharePoint 2013
+----------------------------
+Search for SharePoint 2010 messages
+Change Title
+Change HTML Pages

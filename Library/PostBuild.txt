@@ -1,0 +1,3 @@
+xcopy "$(SolutionDir)SquadronAddIns.Default\bin\debug\SquadronAddIns.Default.dll" "$(SolutionDir)Squadron\bin\debug"
+xcopy "$(SolutionDir)Squadron.AddIns.SqlServer\bin\debug\Squadron.AddIns.SqlServer.dll" "$(SolutionDir)Squadron\bin\debug"
+xcopy "$(SolutionDir)SquadronAddins.Infra\bin\debug\SquadronAddins.Infra.dll" "$(SolutionDir)Squadron\bin\debug"

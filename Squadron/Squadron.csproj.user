@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://ftp.sharepointcto.com/sharepointcto.com/wwwroot/Squadron/2013/|ftp://ftp.sharepointcto.com/sharepointcto.com/wwwroot/Squadron/2010/|ftp://ftp.sharepointcto.com/sharepointcto.com/wwwroot/Builds/Squadron2010/|ftp://ftp.sharepointact.com/sharepointact.com/wwwroot/Squadron2010/|ftp://ftp.sharepointact.com/sharepointact.com/wwwroot/Squadron2010Test/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.sharepointcto.com/Squadron/2013/|http://www.sharepointcto.com/Squadron/2010/|http://www.sharepointcto.com/Builds/Squadron2010/|http://www.sharepointact.com/Squadron2010/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

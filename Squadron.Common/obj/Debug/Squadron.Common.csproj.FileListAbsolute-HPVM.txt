@@ -1,0 +1,29 @@
+E:\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.dll
+E:\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.pdb
+E:\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.dll
+E:\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.pdb
+E:\Projects\Squadron\Squadron.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Squadron\Squadron.Common\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.pdb
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.dll
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.pdb
+C:\Users\HP\SkyDrive\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.csprojResolveAssemblyReference.cache
+C:\SkyDrive\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.dll
+C:\SkyDrive\Projects\Squadron\Squadron.Common\bin\Debug\Squadron.Common.pdb
+C:\SkyDrive\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.dll
+C:\SkyDrive\Projects\Squadron\Squadron.Common\obj\Debug\Squadron.Common.pdb
+\\hp\Squadron2013\Squadron.Common\bin\Debug\Squadron.Common.dll
+\\hp\Squadron2013\Squadron.Common\bin\Debug\Squadron.Common.pdb
+\\hp\Squadron2013\Squadron.Common\obj\Debug\Squadron.Common.dll
+\\hp\Squadron2013\Squadron.Common\obj\Debug\Squadron.Common.pdb
+\\hp\Squadron2013\Squadron.Common\obj\Debug\Squadron.Common.csprojResolveAssemblyReference.cache
+Z:\Squadron.Common\bin\Debug\Squadron.Common.dll
+Z:\Squadron.Common\bin\Debug\Squadron.Common.pdb
+Z:\Squadron.Common\obj\Debug\Squadron.Common.csprojResolveAssemblyReference.cache
+Z:\Squadron.Common\obj\Debug\Squadron.Common.dll
+Z:\Squadron.Common\obj\Debug\Squadron.Common.pdb
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Common\bin\Debug\Squadron.Common.dll
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Common\bin\Debug\Squadron.Common.pdb
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Common\obj\Debug\Squadron.Common.dll
+C:\Users\Jean Paul\OneDrive\Projects\Squadron2013\Squadron.Common\obj\Debug\Squadron.Common.pdb
